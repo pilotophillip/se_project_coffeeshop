@@ -1,0 +1,38 @@
+.about {
+  background-color: #0a2850;
+  color: #fff;
+  font-family: "Inter", Arial, sans-serif;
+  padding: 100px 80px 173px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  max-width: 251px;
+  font-weight: 500px;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.about__content {
+  max-width: 660px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__paragraph {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.about__circle {
+  position: absolute;
+}
